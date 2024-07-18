@@ -23,16 +23,39 @@
 </div>
 
 <div class = "filler"></div>
-<h1 class = "heading">About</h1>
+<h1 class = "heading">Projects</h1>
 
+<h2 class = "heading"> Mock University Database </h2>
 <p class = "body">
-Throughout college, I have had to accept that I can't pursue every opportunity. Dozens of majors would provide a fascinating career path, I could spend a lifetime taking all of the courses I would like to, and there are so many student organizations it becomes tedious to read through them.
-</p><p class = "body">
-Thus the importance of taking advantage of the opportunities I can. I have pursued a fascination in Cognitive Science, a field I previously didn’t know existed. I found incredible people in classes, organizations, and working at a dining hall. I applied data structures and algorithms inside and out of the classroom, used agile development and object oriented programming, and practiced my understanding of relational databases.
-</p><p class = "body"></p>
-Off campus, I've come to appreciate the simple opportunities. I don't need a degree to spend time with family, complete Cyberpunk 2077, or enjoy a game of chess, yet never before have these been more important to me.
-</p><p class = "body"></p>
-As I finish my undergraduate education and transition to the next step of my career, I can’t wait to see what new opportunities present themselves.
+  For this project, I worked with a partner to design and implement a university database, then efficiently access it on a webpage. 
+  We implemented the database using PostreSQL and used the PostreSQL JDBC Driver to access it.
+  We built our dynamic website to access, update, insert, and delete all data in the database with Java Server Pages on and Apache Tomcat server. 
+  <br> <br>
+  Following project specifications, my partner and I modeled the database with an entity-relationahip diagram, which we transferred to a relational database schema. 
+  We created webpages allow the user to view and update data about courses, classes, faculty, departments, students, scholarships, and their relationships. 
+  After implementing these entry forms, we designed forms to allow users to view more complex data about individual students, professors, and courses using parameterized queries. 
+  To efficiently run some of these queries, we created triggers to maintain materialized views. We also used triggers to enforce constraints on data.
+
+</p>
+<h2 class = "heading">Custom Processor </h2>
+<p class = "body">
+  I used System Verilog to design a synthesizeable computer processor adhering to constraints and capable of carrying out three programs.
+  The processor accepted fixed-length 9-bit machine code and had a byte-wide data path, byte-wide registers, and byte-wide memory locations.
+  The ALU could only accept operations comparable in complexity to addition. 
+  It was able calculate and compare the hamming distance, arithmetic difference, and product of combinations of 32 signed 16-bit numbers.
+  <br><br>
+  With the 3 programs and constraints in mind, I designed an initial ISA for the processor. 
+  I wrote syntehsizeable System Verilog code to implement a processor that could carry out this ISA and created an initial testbench 
+  for the processor. 
+  Using Java, I coded an assembler for the ISA. In the final Milestone, I wrote the assembly for each program and 
+  tested and debugged the processor and each program using ModelSim.
+</p>
+<h2 class = "heading"> PantryPal</h2>
+<p class = "body"></p>
+<h2 class = "heading"> Quick To-Do</h2>
+<p class = "body"></p>
+<h2 class = "heading"> Simple Chess</h2>
+<p class = "body">
 </p>
 <div class = "footer"></div>
 </div>
