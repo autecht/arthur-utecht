@@ -1,6 +1,8 @@
-@primary: #ffffff;
-@secondary: #cfc6c6;
-@text: #534b4b;
+@primary: #CADCFC;
+@secondary: #00246B;
+@text: #031d3d;
+@heading: #000211;
+@header-text-color: #a5a7c4;
 
 
 
@@ -21,6 +23,11 @@
 
 
 .heading {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid @secondary;
+  color: @heading;
 }
 
 
@@ -31,7 +38,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 20px;
+  height: 35px;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -55,6 +62,7 @@
 
 .menu {
   font-size: 14px;
+  color: @header-text-color;
 }
 
 .menu-container {
@@ -72,4 +80,8 @@
 
 .filler {
   height: 30px;
+}
+
+.name {
+  color: @header-text-color;
 }
